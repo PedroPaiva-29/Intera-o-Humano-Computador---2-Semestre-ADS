@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+
+    .menu {
+      float: left;
+      width: 20%;
+      
+    }
+
+
+    .menuitem {
+      padding: 8px;
+      margin-top: 7px;
+      border-bottom: 1px dotted gray;
+    }
+
+
+    .main {
+      float: left;
+      width: 60%;
+      padding: 0 20px;
+      overflow: hidden;
+      
+    }
+
+
+    .right {
+     background-color: rgb(168, 168, 105);
+      float: left;
+      width: 20%;
+      padding: 10px 15px;
+      margin-top: 7px;
+    }
+
+
+    @media only screen and (max-width:800px) {
+
+
+      /* Para tablets */
+      .main {
+        width: 80%;
+        padding: 0;
+      
+      }
+
+
+      .right {
+        width: 100%;
+      }
+    }
+
+
+    @media only screen and (max-width:500px) {
+
+
+      /* Para mobile */
+      .menu,
+      .main,
+      .right {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+
+<body style="font-family:Verdana;">
+
+
+  <div style="background-color: rgb(168, 168, 105);padding:15px;">
+    <h1 style="text-align: center; color: red;">Exercício do Tutotrial 08</h1>
+  </div>
+
+
+  <div style="overflow:auto">
+    <div class="menu">
+      <div class="menuitem" style="background-color: rgb(168, 168, 105);text-align: center;text-decoration: underline;">Primeira Opção</div>
+      <div class="menuitem" style="background-color: rgb(168, 168, 105);text-align: center;text-decoration: underline;">Segunda Opção</div>
+      <div class="menuitem" style="background-color: rgb(168, 168, 105);text-align: center;text-decoration: underline;">Terceira Opção</div>
+      <div class="menuitem" style="background-color: rgb(168, 168, 105);text-align: center;text-decoration: underline;">Quarta Opção</div>
+    </div>
+
+
+    <div class="main">
+      <h2 style = "color: red;">Título para o conteúdo</h2>
+      <p style = "color: red;">
+      "Acordo pra trabalhar, eu dou pra trabalhar, tô pra trabalhar"<br>
+      "Não tenho tempo de ter o tempo livre de ser nada"<br>
+      "Eu não vejo além da fumaça que passa por aqui"<br>
+      "Eu não vejo além disso tudo o amor e as coisas lindas"<br>
+      "A vida é só trablhar duro e morrer?"
+      </p>
+    </div>
+
+
+    <div class="right">
+      <h2 style = "color: red;text-align: center;">Sobre</h2>
+      <p style = "color: red;text-align: center;">A música é um alerta para os perigos da alienação e da exploração do homem no trabalho.</p>
+    </div>
+  </div>
+
+
+  <div style="background-color: rgb(168, 168, 105);text-align:center;padding:10px;margin-top:7px;font-size:12px;color: red;">
+    © registro de marca
+  </div>
+
+
+</body>
+
+
+</html>
